@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+<div id="box">
+    <h1>
+        Crie e compartilhe
+    seu evento.
+    </h1>
+    <h4>
+        O primeiro passo, é preencher esse
+    formulário de inscrição.
+    </h4>
+</div>
+    </header>
+
+    <main>
+      
+            <form action="">
+<fieldset class="fieldset_model">
+
+    <legend>
+        Informações do Evento
+    </legend>
+
+    <div class="fieldset_wrapper">
+        <label for="event-title">
+           <p>  Título do evento <span>(mínimo 8 caracteres)</span></p>
+        </label>
+        <input type="text" id="event-title" placeholder="Insira um titulo válido">
+    </div>
+   
+    <div class="fieldset_wrapper">
+        <label for="event-link">
+           <p>  Link do evento <span>(comece com https://)</span></p>
+        </label>
+        <input  type="text" id="event-link" placeholder="Insira o link aqui">
+    </div>
+
+    <div class="fieldset_wrapper">
+        <label for="event-zapzap">
+           <p>  Whatasapp do evento <span>(somente números)</span></p>
+        </label>
+        <input type="text" id="event-zapzap" placeholder="Insira o zap aqui">
+    </div>
+    
+    <div class="fieldset_wrapper">
+        <label for="event-info">
+           <p>Informações adicionais</p>
+        </label>
+        
+        <textarea name="" id="event-info" cols="30" rows="10"></textarea>
+    </div>
+
+    <div class="fieldset_wrapper">
+        <label for="event-category">
+           <p>  Ctegoria do Evento</p>
+        </label>
+       <select id="event-category">
+<option value="live">Live</option>
+<option value="podcast">Podcast</option>
+<option value="musical">Musical</option>
+       </select>
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend>
+        Privacidade
+    </legend>
+
+    <div class="fieldset_wrapper">
+        <label for="event-mail">
+           <p>  E-mail do Administrador<span>(digite um E-mail válido)</span></p>
+        </label>
+        <input type="text" id="event-mail" placeholder="lembre de utilizar o @">
+    </div>
+
+    <div class="fieldset_wrapper">
+        <label for="event-pass">
+           <p>  Senha do evento <span>(somente se o evento for privado)</span></p>
+        </label>
+        <input type="text" id="event-pass" placeholder="Insira o zap aqui">
+    </div>
+
+    <div class="fieldset_wrapper">
+        
+       
+        <label for="event-private">
+            Evento Privado
+            <input type="checkbox" id="event-private"/>
+        </label>
+    </div>
+</fieldset>
+    <fieldset>
+        <legend>Data e Hora</legend>
+        <div id="col-3">
+            <div class="fieldset_wrapper" id="databox">
+                <label for="event-date">
+                   <p>Data</p>
+                </label>
+                <input type="date" id="event-date">
+            </div>
+
+            <div class="fieldset_wrapper">
+                <label for="event-start">
+                   <p>Das</p>
+                </label>
+                <input type="time" id="event-start">
+            </div>
+            
+            <div class="fieldset_wrapper">
+                <label for="event-end">
+                   <p>Data</p>
+                </label>
+                <input type="time" id="event-end">
+            </div>
+            
+
+        </div>
+        
+
+
+    </fieldset>
+<button>Enviar Formulário</button>
+
+            </form>
+        
+   
+    </main>
+
+</body>
+</html>

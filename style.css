@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #121214;
+    width: 100vw;
+    height: 15vw;
+    font-family: 'Archivo', sans-serif;
+    position: absolute;
+    
+ 
+}
+#box{
+    padding-top: 2rem;
+    padding-left: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+header h1{
+    font-weight: bold;
+    color: white;
+    max-width: 20rem;
+}
+header h4{
+    color: #42D3FF;
+    max-width: 20rem;
+    font-weight: 400;
+}
+body{
+   background-color: #d9d9d9;
+   overflow-x: hidden;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 4rem;
+    gap: 1rem;
+    width: 46.9375rem;
+    margin-left: 14.5rem;
+    position: relative;
+    top: 11rem;
+    left: 8rem;
+    border-radius: 0.3rem;
+    
+}
+fieldset{
+    border: none;
+
+}
+fieldset legend{
+font-size: 1.5rem;
+font-family: 'Archivo', sans-serif;
+font-weight: 600;
+color: #32264D;
+
+
+}
+
+.fieldset_wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.fieldset_wrapper input{
+    padding: 1.1rem;
+    border: 0.2px solid gray;
+    border-radius: 0.6rem;
+    font-size: 1.1rem;
+    color: #C1BCCC;
+}
+.fieldset_wrapper input::placeholder{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.fieldset_wrapper p{
+  
+    font-size: 1.2rem;
+    color: #4E4958;
+}
+.fieldset_wrapper span{
+font-size: 0.8rem;
+color: #C1BCCC;
+}
+.fieldset_wrapper textarea{
+    resize: none;
+    border: 0.2px solid gray;
+    border-radius: 0.6rem;
+    font-size: 1.1rem;
+    color: #C1BCCC;
+}
+.fieldset_wrapper textarea:focus{
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+}
+.fieldset_wrapper select{
+    border: 0.2px solid gray;
+    border-radius: 0.6rem;
+    font-size: 1.1rem;
+    padding: 1.1rem;
+    color: #C1BCCC;
+    font-size: 1.1rem;
+}
+#col-3{
+    display: flex;
+    gap: 1.2rem;
+}
+#databox{
+    width: 100%;
+}
+legend{
+    padding-top: 1.3rem;
+}
+button{
+    font-family: 'Archivo', sans-serif; 
+    color: white;
+    font-size:1rem;
+    padding: 1.1rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #04D361;
+    cursor: pointer;
+    margin-top: 2rem;
+}
